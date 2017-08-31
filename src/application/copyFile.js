@@ -40,6 +40,7 @@ function copyFile(file, map) {
         
     } else {
         try {
+            Utilities.sleep(11);
             return Drive.Files.copy(
                 {
                 "title": file.title,
